@@ -1,0 +1,38 @@
+class shape{
+	int length, breadth;
+	
+	shape()
+	{ length= 19;
+	  breadth= 50;
+	  
+	}
+	shape(int L,int B)
+	{
+	length= L;
+	breadth= B;
+	
+	}
+	void check()
+  {
+	if (length== breadth){
+		System.out.println("It is square");
+		}
+		
+	else{
+		System.out.println("It is rectangle");
+				
+         }
+		
+  }
+}
+
+class week4{
+	public static void main (String args[])
+	{
+		shape s1= new shape();
+		shape s2= new shape(44,44);
+		s1.check();
+		s2.check();
+		
+	}
+}
